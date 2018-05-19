@@ -1,0 +1,292 @@
+* {
+    font-family: "Microsoft YaHei";
+}
+
+h1 {
+    font-family: "Microsoft YaHei";
+    font-weight: 600;
+    font-size: 3em;
+    line-height: 1.2;
+    color: #2d2d2d;
+    text-shadow: 5px 5px 5px #c5c5cb;
+}
+
+strong{
+	font-family: "Microsoft YaHei";
+}
+
+input {
+	font-family: "Microsoft YaHei";
+}
+
+p {
+    font-family: "Microsoft YaHei";
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #2d2d2d;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navigation properties */
+
+.navigation {
+    display: block;
+    top: 0;
+    width: 99.15%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #232222;
+    position: fixed;
+    background-color: rgba(0,0,0,0.8);
+
+    max-height: 60px;
+}
+
+.navigation_framework {
+    display: block;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+    position: relative;
+}
+
+.navigation_text {
+    color: white;
+}
+
+.navigation_block_left {
+    font-family: "Microsoft YaHei";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.35em;
+    text-align: center;
+    text-decoration: inherit;
+    letter-spacing: .01em;
+    color: white;
+}
+
+.navigation_block_right {
+    float: right;
+    font-family: "Microsoft YaHei";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.35em;
+    text-align: center;
+    text-decoration: inherit;
+    letter-spacing: .01em;
+    color: white;
+}
+
+.nav_item1 {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.nav_item2 {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px 20px 20px 60px;
+}
+
+.nav_item3 {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+/* Heading properties */
+
+.heading {
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 200px;
+    padding-bottom: 250px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("white.png");
+    background-position: center center;
+    background-size: cover;
+}
+
+.heading_framework {
+    display: block;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+}
+
+.heading_text h1 {
+    color: white;
+}
+
+.heading_text p {
+    text-align: left;
+    color: rgba(255,255,255,0.8);
+}
+
+.heading_button {
+    display: block;
+    width: 90%;
+    margin-top: 2rem;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    max-width: 200px;
+
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    color: white;
+    background-color: #4dc562;
+    border-radius: 4px;
+}
+
+.heading_button_text {
+    font-family: "Microsoft YaHei";
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 1.2rem;
+    color: white;
+}
+
+/* Contact us */
+
+.footer {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #232222;
+    background-position: center center;
+    background-size: cover;
+    min-height: 7rem
+}
+
+.footer_framework {
+    display: block;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+    position: relative;
+}
+
+.footer_text h1 {
+    color: white;
+}
+
+.footer_text p {
+    text-align: left;
+    color: rgba(255,255,255,0.8);
+}
+
+.contact_icon {
+    width: 40px;
+    height: 40px;
+    color: rgba(255,255,255,0.8);
+    vertical-align: middle;
+}
+
+.login_button1 {
+    display: block;
+    width: 90%;
+    margin-top: 2rem;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    max-width: 200px;
+
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    color: white;
+    background-color: #4dc562;
+    border-radius: 4px;
+}
+
+.login_button2 {
+    display: block;
+    width: 90%;
+    margin-top: 2rem;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    max-width: 200px;
+
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    color: white;
+    background-color: #757ac5;
+    border-radius: 4px;
+}
+
+.login_button3 {
+    display: block;
+    width: 90%;
+    margin-top: 2rem;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    max-width: 200px;
+
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    color: white;
+    background-color: #c57b81;
+    border-radius: 4px;
+}
+
+.login_button4 {
+    display: block;
+    width: 90%;
+    margin-top: 2rem;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    max-width: 200px;
+
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    color: white;
+    background-color: #c5c465;
+    border-radius: 4px;
+}
+
+.login_fieldset {
+    border-radius: 25px;
+    color: #848181;
+    max-height: 1200px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+
+}
